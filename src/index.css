@@ -9,7 +9,7 @@ body {
   font-family: 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#31220b, #382e1b);
+  background: #87570bd9;
   color: #f3e7d4;
   min-height: 100vh;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 #main-title img {
-  width: 5rem;
+  width: 13rem;
   margin-right: 1.5rem;
 }
 
@@ -61,7 +61,7 @@ h1 {
 
 #shop h2 {
   font-size: 1.5rem;
-  color: #a59b8b;
+  color: #edbf68;
   text-transform: uppercase;
 }
 

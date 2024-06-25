@@ -2,6 +2,7 @@ import { useContext, useRef } from 'react';
 
 import CartModal from './CartModal.js';
 import { CartCnxt } from '../store/shoppingCart-contextAPI.js';
+import logo from "../assets/logo.png" 
 
 export default function Header() {
   const { items } = useContext(CartCnxt);
@@ -34,7 +35,7 @@ export default function Header() {
       />
       <header id="main-header">
         <div id="main-title">
-          <img src="../assets/logo.png" alt="Elegant model" />
+          <img src={logo} alt="Elegant model" />
           <h1>Elegant Context</h1>
         </div>
         <p>
